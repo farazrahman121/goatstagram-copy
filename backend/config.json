@@ -1,0 +1,18 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "goatdb"
+    },
+    "bucket": {
+        "name": "goatedbucket",
+        "signed_expire_time_s": 3600,
+        "AWS_REGION":"us-east-1",
+        "apiVersion": "2006-03-01",
+        "signatureVersion": "v4"
+    },
+    "groupId": "nets-2120-goats12340sadfddgfgfs",
+    "groupId2": "nets-2120-goats123401aafbfdafd",
+    "bootstrapServers": ["localhost:9092"],
+    "serverPort": "8080"
+}
